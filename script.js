@@ -1,5 +1,9 @@
 function minDate(dates) {
-  //write you code here
+  return dates.reduce((min, curr) => curr < min ? curr : min);
+}
+
+}
+
 }
 
 // Do not change the code
